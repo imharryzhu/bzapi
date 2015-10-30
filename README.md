@@ -1,8 +1,8 @@
 <h1>暴走漫画相关API</h1>
 <h2>功能</h2>
-###登录
-###顶
-###回复
+登录
+顶
+回复
 
 <h2>How to use?</h2>
 just call the functions
