@@ -1,0 +1,1 @@
+import baozouimport osif __name__ == "__main__":    name = '123'    pwd = '123456'    #login    ret = baozou.login(name, pwd)    if ret[0]:        print name + "success:" + ret[1].uid + " - " + ret[1].token    else:        print name + "failed:" + ret[2].text    #up article: 30253839    user = ret[1]    baozou.article_up("30253839", user)
